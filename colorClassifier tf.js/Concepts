@@ -1,0 +1,16 @@
+Inputs are RGB, output wanted is a label
+
+=> making a 1D vector from a particular index (all 0s and that index is 1)
+
+
+SoftMax/Categorical Cross-Entropy (Activation/Loss)
+
+SM
+=> similar to sigmoid normalization
+=> e ^ particular input value / summation of those squared values
+=> Ensures total adds to 100%
+
+CE
+=> Output desired is a probablilty distribution
+=> Entropy between 2 probablilty distributions
+=> - Summation of the product of one prob distribution with the log of the other probablilty distribution
